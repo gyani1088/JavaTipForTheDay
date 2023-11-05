@@ -10,7 +10,7 @@ Pass environment variables for the following:
 3. API key of PALM LLM API ------> PALM_API_KEY
 
 Use the following command in the jar directory to set the environment variables:
-java -jar -Dspring.mail.password=<password> -DPALM_API_KEY=<Palm_Api_Key> -Drecipient.name=<name> <jar_name> 
+java -jar -Dspring.mail.password=<<password>> -DPALM_API_KEY=<<Palm_Api_Key>> -Drecipient.name=<<name>> <<jar_name>>
 
 In the application.properties file. kindly change the following properties:
 spring.mail.username=<GMAIL_ID>
